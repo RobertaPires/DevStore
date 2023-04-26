@@ -1,12 +1,12 @@
-const stadler=document.querySelector('[data-body]') 
-console.log(stadler)
+const corpo=document.querySelector('[data-body]') 
+console.log(corpo)
 const F=document.getElementsByTagName('footer')[0]
 console.log(F)
-function ferstdlr(){
-  stadler.innerHTML=`
+function site(){
+  corpo.innerHTML=`
   <p>DevStore</p>
-  <div class="nazi_fer">
-  <div class="nazi" id="fer_nazi">
+  <div class="nav_menu">
+  <div class="nav" id="nav_list">
     <ul>
       <li><a href="index.html">Produtos</a></li>
       <li><a href="pag2.html">Cadastro</a></li>
@@ -20,5 +20,5 @@ function footer(){
   <p> ® Roberta Pires</p>
   `
 }
-ferstdlr();
+site();
 footer();

@@ -35,6 +35,68 @@ ul> li> a{
   min-height: 100vh;
   gap: 25px;
 }
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width:100%;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  min-width: 420px;
+  min-height: 420px;
+  border: 1px solid #80008065;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 15%;
+  color: #ffffffce;
+}
+.card-tumbnail>img{
+  border-radius: 50%;
+}
+.card-footer{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.card-footer > button{
+  background-color: transparent;
+  border: none;
+  color: #ffffffce;
+}
+
+.input_group{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #c5bcbc;
+}
+.form_footer{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #ffffffce;
+  align-items: flex-end;
+}
+.form_footer > button{
+  width: 50px;
+  border: none;
+  background-color: #e60ae648;
+  padding: 5px;
+  color: #fff;
+}
+
 footer{
   color: #fff;
   text-align: center;
